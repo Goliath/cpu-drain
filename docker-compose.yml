@@ -1,0 +1,10 @@
+version: '2.4'
+
+services:
+  stress-test:
+
+    cpus: 8.0
+
+    build: .
+
+    restart: unless-stopped
